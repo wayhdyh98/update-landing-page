@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+body {
+    overflow: hidden;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+    font-size: small;
+}
+
+.navbar.navbar-expand-lg {
+    padding: 1% 13%;
+}
+
+.navbar-nav .nav-item a.nav-link {
+    color: #d3d3d3;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: .3s;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #fff;
+    border-bottom: 2px solid #9c7b2d;
+    transition: .3s;
+}
+
+#navbar {
+    transition: 1s;
+}
+
+#navbar.scroll {
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 1s;
+}
+
+#beranda, #tentang, #divisi, #kegiatan, #kepengurusan, #galeri, #ikuti {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+#beranda {
+    background: url('../images/1.jpg') center center fixed;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#beranda .overlay {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.landing {
+    width: 100%;
+    display: table;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+#tentang {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 5% 1% 1% 1%;
+    background-color: #EF6C00;
+}
+
+#divisi {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 5% 1% 1% 1%;
+    background-color: #D32F2F;
+}
+
+#divisi div div .card {
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(213, 123, 123);
+}
+
+#divisi div div .card img {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    margin: 4% auto;
+}
+
+#kegiatan {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #F06292;
+}
+
+#kepengurusan {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+    background-color: #673AB7;
+}
+
+#galeri {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+    background-color: #2196F3;
+}
+
+#ikuti {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+    background-color: #00C853;
+}
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+    
+}
+@media screen and (max-width: 768px) {
+    body, html {
+        overflow: visible;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    #tentang {
+        height: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        padding: 10% 1% 1% 1%;
+        background-color: #EF6C00;
+    }
+    #divisi {
+        height: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        padding: 10% 4% 4% 4%;
+        background-color: #D32F2F;
+    }
+
+    #divisi div div .card {
+        height: auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    body, html {
+        overflow: visible;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    #tentang {
+        height: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        padding: 10% 1% 1% 1%;
+        background-color: #EF6C00;
+    }
+    #divisi {
+        height: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        padding: 10% 4% 4% 4%;
+        background-color: #D32F2F;
+    }
+
+    #divisi div div .card {
+        height: auto;
+    }
+}
