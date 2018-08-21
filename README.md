@@ -1,2 +1,2 @@
 # Landing Page
-Click this URL : https://mmdiyul.github.io/landing-page/index.html
+Ahaha1998 : https://ahaha1998.github.io/update-landing-page/

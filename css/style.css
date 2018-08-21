@@ -78,7 +78,7 @@ body, html {
     text-align: center;
     color: #fff;
     padding: 5% 1% 1% 1%;
-    background-color: #EF6C00;
+    background-color: rgb(247, 178, 23);
 }
 
 #divisi {
@@ -88,13 +88,16 @@ body, html {
     text-align: center;
     color: #fff;
     padding: 5% 1% 1% 1%;
-    background-color: #D32F2F;
+    background-color: rgb(239, 108, 0);
 }
 
 #divisi div div .card {
-    height: 525px;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid rgb(250, 153, 153);
+    height: 250px;
+    background-color: rgb(25, 33, 32);
+    border: 1px solid rgb(239, 108, 0);
+    border-top: 5px solid;
+    border-top-color: rgb(25, 33, 32);
+    border-radius: 11px;
 }
 
 #divisi div div .card img,
@@ -110,25 +113,16 @@ body, html {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 5% 1% 1% 1%;
-    background-color: rgb(223, 55, 111);
+    background-color: rgb(211, 47, 47);
 }
 
 #kegiatan div div .card {
-    height: 420px;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid rgb(250, 153, 153);
-}
-
-#kepengurusan {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    padding: 1%;
-    background-color: #673AB7;
+    height: 250px;
+    border: 1px solid rgb(211, 47, 47);
+    border-top: 5px solid;
+    border-radius: 11px;
 }
 
 #galeri {
@@ -190,15 +184,12 @@ body, html {
     margin: auto;
 }
 
-#footer .center a {
-    padding: 3%;
-}
-
 a .fa-facebook-official:hover {
     color: #2196F3;
 }
 
-a .fa-youtube-square:hover {
+a .fa-youtube-square:hover,
+a .fa-instagram:hover {
     color: rgb(155, 39, 39);
 }
 

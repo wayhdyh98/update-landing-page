@@ -78,9 +78,9 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '6240737317',
+        userId: '3311524260',
         resolution: 'standard_resolution',
-        accessToken: '6240737317.1677ed0.0c639ef3f8024dd4b5407b2412c40049',
+        accessToken: '3311524260.39bf8d7.2663676c079841c58729295d0262e43b',
         sortBy: 'most-recent',
         template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
@@ -99,4 +99,24 @@ $(document).ready(function() {
     });
 
 
+});
+
+//animasi pada card
+$(document).ready(function(){
+
+    $("#divisi div div .card, #kegiatan div div .card").mouseenter(function(){
+        $(this).animate({
+            height: '515px'
+        }, 100);
+        $(this).find('.card-body').show().animate({
+            opacity: '1'
+        }, 1000);
+    }).mouseleave(function(){
+        $(this).animate({
+            height: '250px'
+        }, 100);
+        $(this).find('.card-body').hide().animate({
+            opacity: '0'
+        }, 1000);
+    });
 });
