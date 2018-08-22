@@ -111,6 +111,9 @@ $(document).ready(function(){
         $(this).find('.card-body').show().animate({
             opacity: '1'
         }, 1000);
+        $("#divisi h1, #kegiatan h1").animate({
+            fontSize: '3.4rem'
+        }, 500);
     }).mouseleave(function(){
         $(this).animate({
             height: '250px'
@@ -118,5 +121,8 @@ $(document).ready(function(){
         $(this).find('.card-body').hide().animate({
             opacity: '0'
         }, 1000);
+        $("#divisi h1, #kegiatan h1").animate({
+            fontSize: '3.5rem'
+        }, 500);
     });
 });

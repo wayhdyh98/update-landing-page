@@ -104,10 +104,13 @@ body, html {
 
 #divisi .row {
     align-items: center;
-    padding-bottom: 2%;
-    padding-left: 2%; 
-    padding-right: 2%; 
-    height: 525px;
+    padding: 2%;
+    height: 485px;
+}
+
+#divisi h1 {
+    margin-top: 3%;
+    font-size: 3.5rem
 }
 
 #divisi div div .card img,
@@ -139,10 +142,13 @@ body, html {
 
 #kegiatan .row {
     align-items: center;
-    padding-bottom: 2%;
-    padding-left: 2%; 
-    padding-right: 2%; 
-    height: 525px;
+    padding: 2%;
+    height: 485px;
+}
+
+#kegiatan h1 {
+    margin-top: 3%;
+    font-size: 3.5rem
 }
 
 #galeri {
