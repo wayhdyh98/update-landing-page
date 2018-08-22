@@ -82,7 +82,7 @@ $(document).ready(function() {
         resolution: 'standard_resolution',
         accessToken: '3311524260.39bf8d7.2663676c079841c58729295d0262e43b',
         sortBy: 'most-recent',
-        template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<div class="col-lg-2 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
 
 
@@ -106,7 +106,7 @@ $(document).ready(function(){
 
     $("#divisi div div .card, #kegiatan div div .card").mouseenter(function(){
         $(this).animate({
-            height: '515px'
+            height: '485px'
         }, 100);
         $(this).find('.card-body').show().animate({
             opacity: '1'
